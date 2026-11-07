@@ -7,13 +7,21 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
- <section class="container content-bg-heart">
-    <button class="heart-button" aria-label="いいね">
-      <span class="heart-button-back">
-        <span class="heart-button-back-inner"></span>
-      </span>
-      <span class="heart-button-label">&hearts;</span>
-    </button>
- </section>
+<section class="container content-bg-heart">
+  <button
+    type="button"
+    class="heart-button"
+    aria-label="Like"
+    aria-pressed="false"
+  >
+    <span class="heart-button-back" aria-hidden="true">
+      <span class="heart-button-back-inner"></span>
+    </span>
+
+    <span class="heart-button-label" aria-hidden="true">
+      &hearts;
+    </span>
+  </button>
+</section>
 </body>
 </html>
